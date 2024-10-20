@@ -1,0 +1,136 @@
+{
+    "STATS":[
+        {
+            "TOWER_NAME":"RED_A",
+            "PLACEMENT": "NON_PATH",
+            "ATTACK_DAMAGE": 10,
+            "ATTACK_SPEED": 0.5,
+            "ATTACK_RANGE": 2,
+            "CRITICAL_RATE": 0,
+            "CRITICAL_DAMAGE": 1,
+            "COST": 1,
+            "PROJECTILE_SPEED": 1,
+            "SYNERGIES": ["RED", "A"]
+        },
+        {
+            "TOWER_NAME":"RED_B",
+            "PLACEMENT": "ENEMY_PATH",
+            "ATTACK_DAMAGE": 15,
+            "ATTACK_SPEED": 1,
+            "ATTACK_RANGE": 1,
+            "CRITICAL_RATE": 0,
+            "CRITICAL_DAMAGE": 1,
+            "COST": 1,
+            "PROJECTILE_SPEED": 100,
+            "SYNERGIES": ["RED", "B"]
+        },
+        {
+            "TOWER_NAME":"RED_C",
+            "PLACEMENT": "NON_PATH",
+            "ATTACK_DAMAGE": 10,
+            "ATTACK_SPEED": 1,
+            "ATTACK_RANGE": 3,
+            "CRITICAL_RATE": 0,
+            "CRITICAL_DAMAGE": 1,
+            "COST": 2,
+            "PROJECTILE_SPEED": 1,
+            "SYNERGIES": ["RED", "C"]
+        },
+        {
+            "TOWER_NAME":"RED_D",
+            "PLACEMENT": "ENEMY_PATH",
+            "ATTACK_DAMAGE": 10,
+            "ATTACK_SPEED": 0.5,
+            "ATTACK_RANGE": 1,
+            "CRITICAL_RATE": 0,
+            "CRITICAL_DAMAGE": 1,
+            "COST": 3,
+            "PROJECTILE_SPEED": 100,
+            "SYNERGIES": ["RED", "D"]
+        },
+        {
+            "TOWER_NAME":"RED_E",
+            "PLACEMENT": "NON_PATH",
+            "ATTACK_DAMAGE": 10,
+            "ATTACK_SPEED": 1,
+            "ATTACK_RANGE": 2,
+            "CRITICAL_RATE": 0,
+            "CRITICAL_DAMAGE": 1,
+            "COST": 3,
+            "PROJECTILE_SPEED": 1,
+            "SYNERGIES": ["RED", "E"]
+        },
+        {
+            "TOWER_NAME":"YELLOW_A",
+            "PLACEMENT": "ENEMY_PATH",
+            "ATTACK_DAMAGE": 40,
+            "ATTACK_SPEED": 1,
+            "ATTACK_RANGE": 1,
+            "CRITICAL_RATE": 0,
+            "CRITICAL_DAMAGE": 1,
+            "COST": 3,
+            "PROJECTILE_SPEED": 100,
+            "SYNERGIES": ["YELLOW", "A"]
+        },
+        {
+            "TOWER_NAME":"YELLOW_B",
+            "PLACEMENT": "ENEMY_PATH",
+            "ATTACK_DAMAGE": 30,
+            "ATTACK_SPEED": 0.5,
+            "ATTACK_RANGE": 1,
+            "CRITICAL_RATE": 0,
+            "CRITICAL_DAMAGE": 1,
+            "COST": 2,
+            "PROJECTILE_SPEED": 100,
+            "SYNERGIES": ["YELLOW", "B"]
+        },
+        {
+            "TOWER_NAME":"YELLOW_E",
+            "PLACEMENT": "NON_PATH",
+            "ATTACK_DAMAGE": 30,
+            "ATTACK_SPEED": 1,
+            "ATTACK_RANGE": 3,
+            "CRITICAL_RATE": 0,
+            "CRITICAL_DAMAGE": 1,
+            "COST": 2,
+            "PROJECTILE_SPEED": 1,
+            "SYNERGIES": ["YELLOW", "E"]
+        },
+        {
+            "TOWER_NAME":"GREEN_A",
+            "PLACEMENT": "NON_PATH",
+            "ATTACK_DAMAGE": 10,
+            "ATTACK_SPEED": 0.7,
+            "ATTACK_RANGE": 1,
+            "CRITICAL_RATE": 0,
+            "CRITICAL_DAMAGE": 1,
+            "COST": 1,
+            "PROJECTILE_SPEED": 100,
+            "SYNERGIES": ["GREEN", "A"]
+        },
+        {
+            "TOWER_NAME":"GREEN_B",
+            "PLACEMENT": "NON_PATH",
+            "ATTACK_DAMAGE": 60,
+            "ATTACK_SPEED": 0.8,
+            "ATTACK_RANGE": 1,
+            "CRITICAL_RATE": 0,
+            "CRITICAL_DAMAGE": 1,
+            "COST": 2,
+            "PROJECTILE_SPEED": 100,
+            "SYNERGIES": ["GREEN", "B"]
+        },
+        {
+            "TOWER_NAME":"GREEN_C",
+            "PLACEMENT": "ENEMY_PATH",
+            "ATTACK_DAMAGE": 10,
+            "ATTACK_SPEED": 0.8,
+            "ATTACK_RANGE": 1,
+            "CRITICAL_RATE": 0,
+            "CRITICAL_DAMAGE": 1,
+            "COST": 3,
+            "PROJECTILE_SPEED": 100,
+            "SYNERGIES": ["GREEN", "C"]
+        }
+    ]
+}

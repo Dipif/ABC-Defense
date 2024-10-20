@@ -1,0 +1,2063 @@
+fileFormatVersion: 2
+guid: 38a931a15f5bf314b93a95257082ad69
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DefaultTowerImage_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1596
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463deb48dbdf94a4487800f1d32e1872
+      internalID: -811232032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1596
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c332701c5192949a9c96e0df959ebb
+      internalID: -1076992408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_2
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1596
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ab5880b7b034b428b50110d511155d
+      internalID: -875288636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_3
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1596
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f09493b75c15b4f90cdcaea43cb4ee
+      internalID: -1029182844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_4
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1596
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82534f229f35af4bba4b85f9f809ee4
+      internalID: -429843376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_5
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1596
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f26c231853716b4da6eb712c2065d3d
+      internalID: 1648910209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_6
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1596
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e3534f03f0bbe4faf4a6a68d74e5e0
+      internalID: 1250692685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_7
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1596
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28d5c1a4578a2f4e99032d5a9f0959c
+      internalID: 1011576644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_8
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1596
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4853353d403547d4c909eaadf71578e7
+      internalID: 946598915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_9
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 1596
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a3ea424b8933848a8d971ee0a8b44c
+      internalID: 891222803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_10
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 1596
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf88fa04de1c3f43ac28b54a9a98ca5
+      internalID: 1461412188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1368
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f5e7c977ea4324eb1331d839658740
+      internalID: -2078932413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1368
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005bae988fa7b524985af808eb7dc407
+      internalID: -1277940765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_13
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1368
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355223370602c2f4ba8ee4d68cc8a6bc
+      internalID: 1087667976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_14
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1368
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43459c9d61b7f3746830c31a5992bff7
+      internalID: -1834363767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_15
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1368
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27c622ca5456cd4ba7f00bf576c7f09
+      internalID: 1120411874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_16
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1368
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298490a4b513d054cbf47584accd5d68
+      internalID: 460650759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_17
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1368
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07048f7f22532924ea2a158cbf697465
+      internalID: -982789873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_18
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1368
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c6a630b60e4db429353c76004b3057
+      internalID: 1751491420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_19
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1368
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd38392e5f470a428591ab918711ed1
+      internalID: 1888956864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_20
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 1368
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39a58a64cbdf2d45990ead2229d7f1e
+      internalID: 651542174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_21
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 1368
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd23b4e47b048d4497b1c1a1064f2a9
+      internalID: -118606280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1140
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a781bdc0102a0b04898a75d916e42eba
+      internalID: -200472158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_23
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1140
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6afa0afabc110746906441dd484a3fa
+      internalID: 816941690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_24
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1140
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880a06302838ba740acda345350e31fa
+      internalID: -461888119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_25
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1140
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071bcf012b6cea64486d5bab572cea2e
+      internalID: 436029555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_26
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1140
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e98fd8ab3f441d47ad5a514615ea32c
+      internalID: -1875221779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_27
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1140
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34310ada9e35a284691451cb7febae31
+      internalID: -768533929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_28
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1140
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71159979805893646989d0a625d59fd4
+      internalID: 2103526351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_29
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1140
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d8ed100b53cd845a306484302728c7
+      internalID: -1213735446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_30
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1140
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969bef2085cd3cf48b5512daab41c637
+      internalID: 168870631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_31
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 1140
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a13345f4413b84cb2e2b8ede109747
+      internalID: -1805072548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_32
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 1140
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d374f64869be66940b9e007171fa5241
+      internalID: 51277760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7202565a01d9de47babcc1aed38c667
+      internalID: -964942149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_34
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 912
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069b59ab183636a40bda6b95dc44dc18
+      internalID: 428610420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_35
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 912
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4b56b22fb234f4687655c35fbadef4
+      internalID: 876479212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_36
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 912
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55612a67140003343a4d83181240bbe6
+      internalID: -1228606218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_37
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 912
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4184ee180949ee14fb194c4da38489c3
+      internalID: -56570811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_38
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 912
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44485f1ac2a7d3b42b08c5f0c224ff99
+      internalID: -1435377042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_39
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 912
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4b00d9223469442a863216336a3f9b
+      internalID: 94920208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_40
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 912
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8a92f00047e5f47ac01c2bbe598163
+      internalID: -314654747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_41
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 912
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcd85c2f53b4ea40a70a96d25457d8b
+      internalID: 1435312379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_42
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 912
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce1621218ad6b4448fae72406bd3be3
+      internalID: -792174912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_43
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 912
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752302ad112501b469500127102627e6
+      internalID: 2147110357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36787a59b63938d4c91eaf00eb417d27
+      internalID: -1414963874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_45
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 684
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee9f57c1b4262844978dcb0907e69bf
+      internalID: 198967574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_46
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 684
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6720233d5f1254a48b4cfecb96ee1ad0
+      internalID: 8090530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_47
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 684
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92193608920f8ae41acf7eb8b28ec071
+      internalID: -595286814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_48
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 684
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445244e370db9ca41b19f700ee950104
+      internalID: -1056540352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_49
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 684
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064112433c0850f4ea7d5036c4eac856
+      internalID: 872407065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_50
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 684
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb16de6798240cf4dba5acbf6958c11b
+      internalID: -963859750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_51
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 684
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782a52df2e92fb246830d24fd7a4be64
+      internalID: -888835334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_52
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 684
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6945dcaf6690b4ebe8f0bacc7e9b7a
+      internalID: 944869218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_53
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 684
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b21017df2217448b86d422f16c3888
+      internalID: -1934584247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_54
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 684
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a229afdf1943f4da298f1f5b2d2804
+      internalID: 98887638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06852b4f0df3f5349b9db5929211cdaa
+      internalID: 1972543132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_56
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 456
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e6bfcea26640940bacc4d5b016c009
+      internalID: 1708948234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_57
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 456
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f8277db604a0240ae9b31eb9acd3da
+      internalID: 150173414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_58
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 456
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544100f6860dd644fa0e2f2fd20a9762
+      internalID: 539708959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_59
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 456
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee91ea0ae0c0f247859548be1eea43c
+      internalID: -351828399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_60
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 456
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f419a9041d225024aba39bbdd450028d
+      internalID: -740547555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_61
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 456
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf669d89c17f58146b3c6fc1325e728c
+      internalID: -890439219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_62
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 456
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5bbb5a66e30f44190393504a647ca8
+      internalID: 1582533472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_63
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 456
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c866c8e612e6374e8dd79d45e1371d4
+      internalID: -642901390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_64
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 456
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba334cff32a1f24a8cdcd38b792e247
+      internalID: -1741218134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_65
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 456
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6379ec067e7f4c47a40b863b766f790
+      internalID: -1249216836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553841388a14b464e8c21af98dca6223
+      internalID: 1370438775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_67
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 228
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c827246e3986d04c87c7a3cd0174429
+      internalID: -948695871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_68
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 228
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f1e8bd2a1bd904dbe00f634599307c
+      internalID: 1207472765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_69
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 228
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f650c1b853eec4cb5980e89ce9ad70
+      internalID: 1114150588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_70
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 228
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389043811d5caa04da440d42ba055b6c
+      internalID: 1882073500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_71
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 228
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bb62344f874ad40961ddebfd231c3f
+      internalID: -127023489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_72
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 228
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085ab95c3bfb652498965f1e5e2a9a6b
+      internalID: -1313035805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_73
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 228
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac08b7c470ce12a4bbe41622350c3a47
+      internalID: 1033120289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_74
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 228
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f2cf53f1eee30498849157f6ac172d
+      internalID: -1681162859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_75
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 228
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4393526739c529d40a1fbbfa100092a8
+      internalID: 142379886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_76
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 228
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a9e708032cecd4599e7bd29e50d029
+      internalID: 1531768626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2575d744b3bd043906d6e645ed81d9
+      internalID: -693720163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_78
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04256cd0fbf74a4383644d3f018727f
+      internalID: 662929722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_79
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 0
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3498ebd84bd7b4ea24e00adbfffdd1
+      internalID: 1653095800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_80
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 0
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2978221f5b729a47975c86a583295d2
+      internalID: 1950842709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_81
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 0
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed2aa9dff826fd4eba97b76b504e1d0
+      internalID: 1352976924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_82
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 0
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad86d3da2fdf6340a043b2744b6bf45
+      internalID: -457488431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_83
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 0
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65550c3b50ad7014e96591cbaa0d993b
+      internalID: 629730215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_84
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 0
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089be328a61a1e94b9792e7c659c3e4e
+      internalID: 930001907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_85
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 0
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdfd1fd189c1a847a2a0905df7b6420
+      internalID: -1398579596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_86
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 0
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fcdbb84e9105e44a140da3e34106ea
+      internalID: -1604024014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DefaultTowerImage_87
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 0
+        width: 229
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796a57e53f0189c479c6f1d4d9729040
+      internalID: 61233598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e0ac2deea38ea674181e2990c9bc92ac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DefaultTowerImage_0: -811232032
+      DefaultTowerImage_1: -1076992408
+      DefaultTowerImage_10: 1461412188
+      DefaultTowerImage_11: -2078932413
+      DefaultTowerImage_12: -1277940765
+      DefaultTowerImage_13: 1087667976
+      DefaultTowerImage_14: -1834363767
+      DefaultTowerImage_15: 1120411874
+      DefaultTowerImage_16: 460650759
+      DefaultTowerImage_17: -982789873
+      DefaultTowerImage_18: 1751491420
+      DefaultTowerImage_19: 1888956864
+      DefaultTowerImage_2: -875288636
+      DefaultTowerImage_20: 651542174
+      DefaultTowerImage_21: -118606280
+      DefaultTowerImage_22: -200472158
+      DefaultTowerImage_23: 816941690
+      DefaultTowerImage_24: -461888119
+      DefaultTowerImage_25: 436029555
+      DefaultTowerImage_26: -1875221779
+      DefaultTowerImage_27: -768533929
+      DefaultTowerImage_28: 2103526351
+      DefaultTowerImage_29: -1213735446
+      DefaultTowerImage_3: -1029182844
+      DefaultTowerImage_30: 168870631
+      DefaultTowerImage_31: -1805072548
+      DefaultTowerImage_32: 51277760
+      DefaultTowerImage_33: -964942149
+      DefaultTowerImage_34: 428610420
+      DefaultTowerImage_35: 876479212
+      DefaultTowerImage_36: -1228606218
+      DefaultTowerImage_37: -56570811
+      DefaultTowerImage_38: -1435377042
+      DefaultTowerImage_39: 94920208
+      DefaultTowerImage_4: -429843376
+      DefaultTowerImage_40: -314654747
+      DefaultTowerImage_41: 1435312379
+      DefaultTowerImage_42: -792174912
+      DefaultTowerImage_43: 2147110357
+      DefaultTowerImage_44: -1414963874
+      DefaultTowerImage_45: 198967574
+      DefaultTowerImage_46: 8090530
+      DefaultTowerImage_47: -595286814
+      DefaultTowerImage_48: -1056540352
+      DefaultTowerImage_49: 872407065
+      DefaultTowerImage_5: 1648910209
+      DefaultTowerImage_50: -963859750
+      DefaultTowerImage_51: -888835334
+      DefaultTowerImage_52: 944869218
+      DefaultTowerImage_53: -1934584247
+      DefaultTowerImage_54: 98887638
+      DefaultTowerImage_55: 1972543132
+      DefaultTowerImage_56: 1708948234
+      DefaultTowerImage_57: 150173414
+      DefaultTowerImage_58: 539708959
+      DefaultTowerImage_59: -351828399
+      DefaultTowerImage_6: 1250692685
+      DefaultTowerImage_60: -740547555
+      DefaultTowerImage_61: -890439219
+      DefaultTowerImage_62: 1582533472
+      DefaultTowerImage_63: -642901390
+      DefaultTowerImage_64: -1741218134
+      DefaultTowerImage_65: -1249216836
+      DefaultTowerImage_66: 1370438775
+      DefaultTowerImage_67: -948695871
+      DefaultTowerImage_68: 1207472765
+      DefaultTowerImage_69: 1114150588
+      DefaultTowerImage_7: 1011576644
+      DefaultTowerImage_70: 1882073500
+      DefaultTowerImage_71: -127023489
+      DefaultTowerImage_72: -1313035805
+      DefaultTowerImage_73: 1033120289
+      DefaultTowerImage_74: -1681162859
+      DefaultTowerImage_75: 142379886
+      DefaultTowerImage_76: 1531768626
+      DefaultTowerImage_77: -693720163
+      DefaultTowerImage_78: 662929722
+      DefaultTowerImage_79: 1653095800
+      DefaultTowerImage_8: 946598915
+      DefaultTowerImage_80: 1950842709
+      DefaultTowerImage_81: 1352976924
+      DefaultTowerImage_82: -457488431
+      DefaultTowerImage_83: 629730215
+      DefaultTowerImage_84: 930001907
+      DefaultTowerImage_85: -1398579596
+      DefaultTowerImage_86: -1604024014
+      DefaultTowerImage_87: 61233598
+      DefaultTowerImage_9: 891222803
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

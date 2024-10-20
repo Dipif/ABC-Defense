@@ -1,0 +1,122 @@
+[
+    {
+        "LEVEL": 1,
+        "ENEMIES": [
+            {
+                "ENEMY_NAME": "MONSTER1",
+                "COUNT": 20,
+                "SPAWN_INTERVAL": 1
+            }
+        ]
+    },
+    {
+        "LEVEL": 2,
+        "ENEMIES": [
+            {
+                "ENEMY_NAME": "MONSTER1",
+                "COUNT": 10,
+                "SPAWN_INTERVAL": 1
+            },
+            {
+                "ENEMY_NAME": "MONSTER2",
+                "COUNT": 10,
+                "SPAWN_INTERVAL": 1
+            }
+        ]
+    },
+    {
+        "LEVEL": 3,
+        "ENEMIES": [
+            {
+                "ENEMY_NAME": "MONSTER2",
+                "COUNT": 10,
+                "SPAWN_INTERVAL": 1
+            }
+        ]
+    },
+    {
+        "LEVEL": 4,
+        "ENEMIES": [
+            {
+                "ENEMY_NAME": "BOSS1",
+                "COUNT": 1,
+                "SPAWN_INTERVAL": 1
+            }
+        ]
+    },
+    {
+        "LEVEL": 5,
+        "ENEMIES": [
+            {
+                "ENEMY_NAME": "MONSTER2",
+                "COUNT": 10,
+                "SPAWN_INTERVAL": 1
+            },
+            {
+                "ENEMY_NAME": "MONSTER3",
+                "COUNT": 10,
+                "SPAWN_INTERVAL": 1
+            }
+        ]
+    },
+    {
+        "LEVEL": 6,
+        "ENEMIES": [
+            {
+                "ENEMY_NAME": "MONSTER3",
+                "COUNT": 20,
+                "SPAWN_INTERVAL": 1
+            }
+        ]
+    },
+    {
+        "LEVEL": 7,
+        "ENEMIES": [
+            {
+                "ENEMY_NAME": "MONSTER3",
+                "COUNT": 10,
+                "SPAWN_INTERVAL": 1
+            },
+            {
+                "ENEMY_NAME": "MONSTER4",
+                "COUNT": 10,
+                "SPAWN_INTERVAL": 1
+            }
+        ]
+    },
+    {
+        "LEVEL": 8,
+        "ENEMIES": [
+            {
+                "ENEMY_NAME": "MONSTER4",
+                "COUNT": 20,
+                "SPAWN_INTERVAL": 1
+            }
+        ]
+    },
+    {
+        "LEVEL": 9,
+        "ENEMIES": [
+            {
+                "ENEMY_NAME": "BOSS2",
+                "COUNT": 1,
+                "SPAWN_INTERVAL": 1
+            }
+        ]
+    },
+    {
+        "LEVEL": 10,
+        "ENEMIES": [
+            {
+                "ENEMY_NAME": "BOSS1",
+                "COUNT": 1,
+                "SPAWN_INTERVAL": 1
+            },
+            {
+                "ENEMY_NAME": "BOSS2",
+                "COUNT": 1,
+                "SPAWN_INTERVAL": 1
+            }
+        ]
+    }
+]

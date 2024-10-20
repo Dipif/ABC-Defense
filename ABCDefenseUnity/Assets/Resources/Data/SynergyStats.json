@@ -1,0 +1,118 @@
+{
+    "SYNERGIES":[
+        {
+            "NAME":"RED",
+            "STATS": [
+                {
+                    "COUNT": 3,
+                    "DESCRIPTION": "RED 타워가 공격시 @PROBABILITY%의 확률로 상대에게 화염 데미지를 입힙니다. 화염 데미지는 3초간 지속되며 초당 적 체력의 @DAMAGE%만큼의 데미지를 입힙니다.",
+                    "PROBABILITY": 30,
+                    "DAMAGE": 5
+                },
+                {
+                    "COUNT": 5,
+                    "DESCRIPTION": "RED 타워가 공격시 @PROBABILITY%의 확률로 상대에게 화염 데미지를 입힙니다. 화염 데미지는 3초간 지속되며 초당 적 체력의 @DAMAGE%만큼의 데미지를 입힙니다.",
+                    "PROBABILITY": 50,
+                    "DAMAGE": 5
+                }
+            ]
+        },
+        {
+            "NAME":"YELLOW",
+            "STATS": [
+                {
+                    "COUNT": 2,
+                    "DESCRIPTION": "라운드 종료시 추가로 @GOLD만큼의 골드를 추가로 획득합니다. 해당 라운드에 체력을 잃으면 골드 획득량이 일부 증가합니다.",
+                    "GOLD": 1,
+                    "LOSS_HP_RATIO": 0.1,
+                    "RANDOMNESS": 0.1
+                },
+                {
+                    "COUNT": 3,
+                    "DESCRIPTION": "라운드 종료시 추가로 @GOLD만큼의 골드를 추가로 획득합니다. 골드 획득량은 라운드에 잃은 체력만큼 증가합니다.",
+                    "GOLD": 2,
+                    "LOSS_HP_RATIO": 0.2,
+                    "RANDOMNESS": 0.1
+                }
+            ]
+        },
+        {
+            "NAME": "GREEN",
+            "STATS": [
+                {
+                    "COUNT": 2,
+                    "DESCRIPTION": "GREEN 타워가 공격시 상대의 이동속도를 @SPEED%만큼 감소시킵니다.",
+                    "SPEED": 10
+                },
+                {
+                    "COUNT": 3,
+                    "DESCRIPTION": "GREEN 타워가 공격시 상대의 이동속도를 @SPEED%만큼 감소시킵니다.",
+                    "SPEED": 20
+                }
+            ]
+        },
+        {
+            "NAME": "A",
+            "STATS": [
+                {
+                    "COUNT": 2,
+                    "DESCRIPTION": "A 타워의 크리티컬 확률이 @CRITICAL_RATE%만큼 증가합니다.",
+                    "CRITICAL_RATE": 20,
+                    "CRITICAL_DAMAGE": 0
+                },
+                {
+                    "COUNT": 3,
+                    "DESCRIPTION": "A 타워의 크리티컬 확률이 @CRITICAL_RATE%만큼 증가합니다. 크리티컬 데미지가 @CRITICAL_DAMAGE%만큼 증가합니다.",
+                    "CRITICAL_RATE": 20,
+                    "CRITICAL_DAMAGE": 50
+                }
+            ]
+        },
+        {
+            "NAME": "B",
+            "STATS": [
+                {
+                    "COUNT": 2,
+                    "DESCRIPTION": "B 타워의 공격속도가 @SPEED만큼 증가합니다.",
+                    "ATTACK_SPEED": 10
+                },
+                {
+                    "COUNT": 3,
+                    "DESCRIPTION": "B 타워의 공격속도가 @SPEED만큼 증가합니다.",
+                    "ATTACK_SPEED": 20
+                }
+            ]
+        },
+        {
+            "NAME": "C",
+            "STATS": [
+                {
+                    "COUNT": 2,
+                    "DESCRIPTION": "C 타워의 스킬 데미지가 @SKILL_DAMAGE%만큼 증가합니다.",
+                    "SKILL_DAMAGE": 20
+                }
+            ]
+        },
+        {
+            "NAME": "D",
+            "STATS": [
+                {
+                    "COUNT": 1,
+                    "DESCRIPTION": "D 타워가 공격시 상대를 @DISTANCE만큼 넉백시킵니다.",
+                    "DISTANCE": 1
+                }
+            ]
+        },
+        {
+            "NAME": "E",
+            "STATS": [
+                {
+                    "COUNT": 2,
+                    "DESCRIPTION": "E 타워로부터 사거리 @RANGE 이내에 있는 타워의 공격력을 @ATTACK_DAMAGE%만큼 증가합니다.",
+                    "RANGE": 2,
+                    "ATTACK_DAMAGE": 10
+                }
+            ]
+        }
+    ]
+}

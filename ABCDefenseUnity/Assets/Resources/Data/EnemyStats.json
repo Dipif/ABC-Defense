@@ -1,0 +1,34 @@
+{
+    "STATS":[
+        {
+            "ENEMY_NAME": "MONSTER1",
+            "HEALTH": 100,
+            "SPEED": 1
+        },
+        {
+            "ENEMY_NAME": "MONSTER2",
+            "HEALTH": 200,
+            "SPEED": 1
+        },
+        {
+            "ENEMY_NAME": "MONSTER3",
+            "HEALTH": 300,
+            "SPEED": 1.2
+        },
+        {
+            "ENEMY_NAME": "MONSTER3",
+            "HEALTH": 400,
+            "SPEED": 1.2
+        },
+        {
+            "ENEMY_NAME": "BOSS1",
+            "HEALTH": 5000,
+            "SPEED": 1
+        },
+        {
+            "ENEMY_NAME": "BOSS2",
+            "HEALTH": 10000,
+            "SPEED": 1.2
+        }
+    ]
+}
