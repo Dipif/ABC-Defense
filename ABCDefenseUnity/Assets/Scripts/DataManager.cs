@@ -14,7 +14,11 @@ public class DataManager : MonoBehaviour
         {
             if (_instance == null)
             {
-                _instance = new DataManager();
+                _instance = FindObjectOfType<DataManager>();
+                if (_instance == null)
+                {
+                    _instance = new GameObject { name = "DataManager" }.AddComponent<DataManager>();
+                }
                 _instance.Init();
             }
             return _instance;
@@ -24,7 +28,7 @@ public class DataManager : MonoBehaviour
     public Dictionary<TowerNameEnum, TowerStats> TowerStatsDict { get; private set; } = new Dictionary<TowerNameEnum, TowerStats>();
     public Dictionary<SynergyEnum, SynergyData> SynergyDataDict { get; private set; } = new Dictionary<SynergyEnum, SynergyData>();
     public Dictionary<EnemyEnum, EnemyStat> EnemyStatsDict { get; private set; } = new Dictionary<EnemyEnum, EnemyStat>();
-    private DataManager() { }  // 외부에서 인스턴스 생성 금지
+    public Dictionary<int, RefreshProbability> RefreshProbabilityDict { get; private set; } = new Dictionary<int, RefreshProbability>();
 
     public void Init()
     {
@@ -40,19 +44,23 @@ public class DataManager : MonoBehaviour
         {
             LoadEnemyStatsFromJson();
         }
+        if (RefreshProbabilityDict.Count == 0)
+        {
+            LoadRefreshProbabilityFromJson();
+        }
     }
 
     private void LoadTowerStatsFromJson()
     {
         // JSON 데이터를 불러옴
         
-        TextAsset textAsset = Resources.Load<TextAsset>("Data/StatData");
+        TextAsset textAsset = Resources.Load<TextAsset>("Data/TowerStats");
         JObject jObject = JObject.Parse(textAsset.text);
 
         // 각 타워 스탯을 ScriptableObject로 변환하여 저장
         foreach (var statData in jObject["STATS"])
         {
-            string towerName = statData["NAME"].Value<string>();
+            string towerName = statData["TOWER_NAME"].Value<string>();
             TowerNameEnum towerNameEnum = (TowerNameEnum)System.Enum.Parse(typeof(TowerNameEnum), towerName);
             TowerStats towerStat;
             switch (towerName)
@@ -98,7 +106,8 @@ public class DataManager : MonoBehaviour
             towerStat.attackRange = statData["ATTACK_RANGE"].Value<float>();
             towerStat.criticalRate = statData["CRITICAL_RATE"].Value<int>();
             towerStat.criticalDamage = statData["CRITICAL_DAMAGE"].Value<int>();
-            towerStat.towerName = statData["NAME"].Value<string>();
+            towerStat.towerName = statData["TOWER_NAME"].Value<string>();
+            towerStat.cost = statData["COST"].Value<int>();
 
             TowerStatsDict[towerNameEnum] = towerStat;
         }
@@ -107,7 +116,7 @@ public class DataManager : MonoBehaviour
     private void LoadSynergyDataFromJson()
     {
         // JSON 데이터를 불러옴
-        TextAsset textAsset = Resources.Load<TextAsset>("Data/SynergyData");
+        TextAsset textAsset = Resources.Load<TextAsset>("Data/SynergyStats");
         JObject jObject = JObject.Parse(textAsset.text);
 
         // 각 시너지 데이터를 ScriptableObject로 변환하여 저장
@@ -224,13 +233,13 @@ public class DataManager : MonoBehaviour
     {
 
        // JSON 데이터를 불러옴
-        TextAsset textAsset = Resources.Load<TextAsset>("Data/EnemyData");
+        TextAsset textAsset = Resources.Load<TextAsset>("Data/EnemyStats");
         JObject jObject = JObject.Parse(textAsset.text);
 
         // 각 적 스탯을 ScriptableObject로 변환하여 저장
         foreach (var enemyData in jObject["STATS"])
         {
-            string enemyName = enemyData["NAME"].Value<string>();
+            string enemyName = enemyData["ENEMY_NAME"].Value<string>();
             EnemyEnum enemyEnum = (EnemyEnum)System.Enum.Parse(typeof(EnemyEnum), enemyName);
             EnemyStat enemyStat;
             switch (enemyName)
@@ -262,6 +271,22 @@ public class DataManager : MonoBehaviour
             enemyStat.speed = enemyData["SPEED"].Value<string>();
 
             EnemyStatsDict[enemyEnum] = enemyStat;
+        }
+    }
+
+    private void LoadRefreshProbabilityFromJson()
+    {
+        TextAsset textAsset = Resources.Load<TextAsset>("Data/RefreshProbability");
+        JArray jArray = JArray.Parse(textAsset.text);
+        foreach (var refreshProbabilityData in jArray)
+        {
+            int level = refreshProbabilityData["LEVEL"].Value<int>();
+            RefreshProbability refreshProbability = ScriptableObject.CreateInstance<RefreshProbability>();
+            refreshProbability.level = level;
+            refreshProbability.cost1Probability = refreshProbabilityData["COST_1_PROBABILITY"].Value<float>();
+            refreshProbability.cost2Probability = refreshProbabilityData["COST_2_PROBABILITY"].Value<float>();
+            refreshProbability.cost3Probability = refreshProbabilityData["COST_3_PROBABILITY"].Value<float>();
+            RefreshProbabilityDict[level] = refreshProbability;
         }
     }
 }

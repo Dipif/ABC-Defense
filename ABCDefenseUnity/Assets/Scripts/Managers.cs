@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class Managers : MonoBehaviour
 {
-    public TowerManager TowerManager;
-    public DataManager DataManager;
-
     static Managers _instance;
     public static Managers Instance
     {

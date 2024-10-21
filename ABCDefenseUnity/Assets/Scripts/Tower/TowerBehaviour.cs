@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-// 각 타워 game object에 할당되는 script
-// 현재 타워 상태를 저장하고 관리하는 역할
-
 public class TowerBehaviour : MonoBehaviour
 {
+    GameObject buildImpossibleSquare;
+    GameObject buildPossibleSquare;
+
     public string towerName = "";
     public int level = 1;
     public float attackSpeed = 1f;
@@ -19,12 +19,32 @@ public class TowerBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        buildImpossibleSquare = GameObject.Find("BuildImpossibleSquare");
+        buildPossibleSquare = GameObject.Find("BuildPossibleSquare");
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void ShowBuildPossibilitySquare(bool isPossible)
+    {
+        if (isPossible)
+        {
+            buildImpossibleSquare.SetActive(false);
+            buildPossibleSquare.SetActive(true);
+        }
+        else
+        {
+            buildImpossibleSquare.SetActive(true);
+            buildPossibleSquare.SetActive(false);
+        }
+    }
+    public void HideBuildSquare()
+    {
+        buildImpossibleSquare.SetActive(false);
+        buildPossibleSquare.SetActive(false);
     }
 }
