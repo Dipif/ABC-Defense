@@ -27,6 +27,8 @@ public class WaveManager : MonoBehaviour
         {
             if (enemyOnMap[i].GetComponent<Enemy>().isDead)
             {
+                Destroy(enemyOnMap[i]);
+                currentEnemyWayPoints.RemoveAt(i);
                 enemyOnMap.RemoveAt(i);
             }
 

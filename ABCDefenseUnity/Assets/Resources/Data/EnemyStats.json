@@ -2,7 +2,7 @@
     "STATS":[
         {
             "ENEMY_NAME": "MONSTER1",
-            "HEALTH": 100,
+            "HEALTH": 50,
             "SPEED": 1
         },
         {

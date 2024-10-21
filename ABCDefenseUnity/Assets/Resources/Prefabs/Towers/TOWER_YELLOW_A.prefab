@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   benchTowerLayerCube: {fileID: 0}
+  bulletPrefab: {fileID: 3195543105242546141, guid: a07f7e98387ee044d8580d342ace55d6, type: 3}
   towerName: 
   level: 1
   attackSpeed: 1
