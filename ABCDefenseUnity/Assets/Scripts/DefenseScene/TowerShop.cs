@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Shop : MonoBehaviour
+public class TowerShop : MonoBehaviour
 {
     [SerializeField]
     List<GameObject> shopTowerImages;

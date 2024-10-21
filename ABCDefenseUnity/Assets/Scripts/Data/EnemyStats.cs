@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyStat : ScriptableObject
+public class EnemyStat
 {
     public string enemyName = "";
-    public string health = "";
-    public string speed = "";
+    public float health = 0.0f;
+    public float speed = 0.0f;
 }
 
 public class Monster1Stat : EnemyStat { }

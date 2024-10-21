@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WaveData : ScriptableObject
+public class WaveData 
 {
     public List<Wave> waves = new List<Wave>();
 

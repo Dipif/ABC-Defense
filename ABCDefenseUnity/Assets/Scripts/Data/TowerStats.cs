@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class TowerStats : ScriptableObject
+public class TowerStats
 {
     public string towerName = "";
     public string placement = "";

@@ -66,37 +66,37 @@ public class DataManager : MonoBehaviour
             switch (towerName)
             {
                 case "RED_A":
-                    towerStat = ScriptableObject.CreateInstance<TowerRedAStats>();
+                    towerStat = new TowerRedAStats();
                     break;
                 case "RED_B":
-                    towerStat = ScriptableObject.CreateInstance<TowerRedBStats>();
+                    towerStat = new TowerRedBStats();
                     break;
                 case "RED_C":
-                    towerStat = ScriptableObject.CreateInstance<TowerRedCStats>();
+                    towerStat = new TowerRedCStats();
                     break;
                 case "RED_D":
-                    towerStat = ScriptableObject.CreateInstance<TowerRedAStats>();
+                    towerStat = new TowerRedAStats();
                     break;
                 case "RED_E":
-                    towerStat = ScriptableObject.CreateInstance<TowerRedBStats>();
+                    towerStat = new TowerRedBStats();
                     break;
                 case "YELLOW_A":
-                    towerStat = ScriptableObject.CreateInstance<TowerRedCStats>();
+                    towerStat = new TowerRedCStats();
                     break;
                 case "YELLOW_B":
-                    towerStat = ScriptableObject.CreateInstance<TowerRedAStats>();
+                    towerStat = new TowerRedAStats();
                     break;
                 case "YELLOW_E":
-                    towerStat = ScriptableObject.CreateInstance<TowerRedBStats>();
+                    towerStat = new TowerRedBStats();
                     break;
                 case "GREEN_A":
-                    towerStat = ScriptableObject.CreateInstance<TowerRedCStats>();
+                    towerStat = new TowerRedCStats();
                     break;
                 case "GREEN_B":
-                    towerStat = ScriptableObject.CreateInstance<TowerRedAStats>();
+                    towerStat = new TowerRedAStats();
                     break;
                 case "GREEN_C":
-                    towerStat = ScriptableObject.CreateInstance<TowerRedBStats>();
+                    towerStat = new TowerRedBStats();
                     break;
                 default:
                     throw new System.Exception("Invalid tower name, 1");
@@ -108,6 +108,11 @@ public class DataManager : MonoBehaviour
             towerStat.criticalDamage = statData["CRITICAL_DAMAGE"].Value<int>();
             towerStat.towerName = statData["TOWER_NAME"].Value<string>();
             towerStat.cost = statData["COST"].Value<int>();
+            towerStat.placement = statData["PLACEMENT"].Value<string>();
+            foreach (var synergy in statData["SYNERGIES"])
+            {
+                towerStat.synergies.Add(synergy.Value<string>());
+            }
 
             TowerStatsDict[towerNameEnum] = towerStat;
         }
@@ -245,30 +250,30 @@ public class DataManager : MonoBehaviour
             switch (enemyName)
             {
                 case "MONSTER1":
-                    enemyStat = ScriptableObject.CreateInstance<Monster1Stat>();
+                    enemyStat = new Monster1Stat();
                     break;
                 case "MONSTER2":
-                    enemyStat = ScriptableObject.CreateInstance<Monster2Stat>();
-                    break;
+                    enemyStat = new Monster2Stat();
+                    break;  
                 case "MONSTER3":
-                    enemyStat = ScriptableObject.CreateInstance<Monster3Stat>();
+                    enemyStat = new Monster3Stat();
                     break;
                 case "MONSTER4":
-                    enemyStat = ScriptableObject.CreateInstance<Monster4Stat>();
+                    enemyStat = new Monster4Stat();
                     break;
                 case "BOSS1":
-                    enemyStat = ScriptableObject.CreateInstance<Boss1Stat>();
+                    enemyStat = new Boss1Stat();
                     break;
                 case "BOSS2":
-                    enemyStat = ScriptableObject.CreateInstance<Boss2Stat>();
+                    enemyStat = new Boss2Stat();
                     break;
                 default:
                     throw new System.Exception("Invalid enemy name, 1");
             }
 
             enemyStat.enemyName = enemyName;
-            enemyStat.health = enemyData["HEALTH"].Value<string>();
-            enemyStat.speed = enemyData["SPEED"].Value<string>();
+            enemyStat.health = enemyData["HEALTH"].Value<float>();
+            enemyStat.speed = enemyData["SPEED"].Value<float>();
 
             EnemyStatsDict[enemyEnum] = enemyStat;
         }

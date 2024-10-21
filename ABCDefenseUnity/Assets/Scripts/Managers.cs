@@ -5,6 +5,9 @@ using UnityEngine;
 public class Managers : MonoBehaviour
 {
     static Managers _instance;
+
+    public WaveManager waveManager { get; private set; }
+    public GameObject player { get; set; }
     public static Managers Instance
     {
         get
@@ -40,5 +43,7 @@ public class Managers : MonoBehaviour
             //instance วาด็
             _instance = go.GetComponent<Managers>();
         }
+        _instance.player = GameObject.Find("Player");
+        _instance.waveManager = GameObject.Find("WaveManager").GetComponent<WaveManager>();
     }
 }
