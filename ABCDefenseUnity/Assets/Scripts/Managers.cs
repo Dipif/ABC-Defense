@@ -6,7 +6,10 @@ public class Managers : MonoBehaviour
 {
     static Managers _instance;
 
-    public WaveManager waveManager { get; private set; }
+    public DataManager Datamanager { get; private set; }
+    public WaveManager WaveManager { get; private set; }
+    public TowerManager TowerManager { get; private set; }
+    public MapManager MapManager { get; private set; }
     public GameObject player { get; set; }
     public static Managers Instance
     {
@@ -42,8 +45,16 @@ public class Managers : MonoBehaviour
             DontDestroyOnLoad(go);
             //instance วาด็
             _instance = go.GetComponent<Managers>();
+
+            _instance.player = GameObject.Find("Player");
+            _instance.WaveManager = GameObject.Find("WaveManager").GetComponent<WaveManager>();
+            _instance.TowerManager = GameObject.Find("TowerManager").GetComponent<TowerManager>();
+            _instance.Datamanager = GameObject.Find("DataManager").GetComponent<DataManager>();
+            _instance.MapManager = GameObject.Find("MapManager").GetComponent<MapManager>();
+
+            InitManager initManager = new InitManager();
+            initManager.Init();
+
         }
-        _instance.player = GameObject.Find("Player");
-        _instance.waveManager = GameObject.Find("WaveManager").GetComponent<WaveManager>();
     }
 }

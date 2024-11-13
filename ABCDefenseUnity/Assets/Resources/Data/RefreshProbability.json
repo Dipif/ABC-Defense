@@ -1,32 +1,52 @@
-[
-    {
-        "LEVEL": 1,
-        "COST_1_PROBABILITY": 0.8,
-        "COST_2_PROBABILITY": 0.2,
-        "COST_3_PROBABILITY": 0
-    },
-    {
-        "LEVEL": 2,
-        "COST_1_PROBABILITY": 0.65,
-        "COST_2_PROBABILITY": 0.3,
-        "COST_3_PROBABILITY": 0.05
-    },
-    {
-        "LEVEL": 3,
-        "COST_1_PROBABILITY": 0.5,
-        "COST_2_PROBABILITY": 0.4,
-        "COST_3_PROBABILITY": 0.1
-    },
-    {
-        "LEVEL": 4,
-        "COST_1_PROBABILITY": 0.3,
-        "COST_2_PROBABILITY": 0.5,
-        "COST_3_PROBABILITY": 0.2
-    },
-    {
-        "LEVEL": 5,
-        "COST_1_PROBABILITY": 0.1,
-        "COST_2_PROBABILITY": 0.6,
-        "COST_3_PROBABILITY": 0.3
-    }
-]
+{
+    "Probability": [
+        [
+            1.0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0.8,
+            0.2,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0.65,
+            0.3,
+            0.05,
+            0,
+            0
+        ],
+        [
+            0,
+            0.5,
+            0.4,
+            0.1,
+            0,
+            0
+        ],
+        [
+            0,
+            0.3,
+            0.5,
+            0.2,
+            0,
+            0
+        ],
+        [
+            0,
+            0.1,
+            0.6,
+            0.3,
+            0,
+            0
+        ]
+    ]
+}

@@ -19,7 +19,7 @@ public class WaveStartArrow : MonoBehaviour
                 {
                     if (hit.collider.gameObject == gameObject) // 충돌한 오브젝트가 자신이라면
                     {
-                        Managers.Instance.waveManager.StartWave();
+                        //Managers.Instance.WaveManager.StartWave();
                     }
                 }
             }

@@ -1,34 +1,32 @@
-{
-    "STATS":[
-        {
-            "ENEMY_NAME": "MONSTER1",
-            "HEALTH": 50,
-            "SPEED": 1
-        },
-        {
-            "ENEMY_NAME": "MONSTER2",
-            "HEALTH": 200,
-            "SPEED": 1
-        },
-        {
-            "ENEMY_NAME": "MONSTER3",
-            "HEALTH": 300,
-            "SPEED": 1.2
-        },
-        {
-            "ENEMY_NAME": "MONSTER3",
-            "HEALTH": 400,
-            "SPEED": 1.2
-        },
-        {
-            "ENEMY_NAME": "BOSS1",
-            "HEALTH": 5000,
-            "SPEED": 1
-        },
-        {
-            "ENEMY_NAME": "BOSS2",
-            "HEALTH": 10000,
-            "SPEED": 1.2
-        }
-    ]
-}
+[
+    {
+        "EnemyName": "MONSTER1",
+        "Health": 50,
+        "Speed": 1
+    },
+    {
+        "EnemyName": "MONSTER2",
+        "Health": 200,
+        "Speed": 1
+    },
+    {
+        "EnemyName": "MONSTER3",
+        "Health": 300,
+        "Speed": 1.2
+    },
+    {
+        "EnemyName": "MONSTER3",
+        "Health": 400,
+        "Speed": 1.2
+    },
+    {
+        "EnemyName": "BOSS1",
+        "Health": 5000,
+        "Speed": 1
+    },
+    {
+        "EnemyName": "BOSS2",
+        "Health": 10000,
+        "Speed": 1.2
+    }
+]

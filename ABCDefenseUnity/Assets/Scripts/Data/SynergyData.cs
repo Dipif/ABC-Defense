@@ -5,7 +5,7 @@ using UnityEngine;
 
 #region
 
-public class SynergyData : ScriptableObject
+public class SynergyData
 {
     public string synergyName = "";
 }

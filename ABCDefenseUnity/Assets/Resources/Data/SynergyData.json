@@ -1,0 +1,114 @@
+[
+    {
+        "SynergyName":"Red",
+        "Stats": [
+            {
+                "Count": 3,
+                "Description": "Red 타워가 공격시 @Probability%의 확률로 상대에게 화염 데미지를 입힙니다. 화염 데미지는 3초간 지속되며 초당 적 체력의 @Damage%만큼의 데미지를 입힙니다.",
+                "Probability": 30,
+                "Damage": 5
+            },
+            {
+                "Count": 5,
+                "Description": "Red 타워가 공격시 @Probability%의 확률로 상대에게 화염 데미지를 입힙니다. 화염 데미지는 3초간 지속되며 초당 적 체력의 @Damage%만큼의 데미지를 입힙니다.",
+                "Probability": 50,
+                "Damage": 5
+            }
+        ]
+    },
+    {
+        "SynergyName":"Yellow",
+        "Stats": [
+            {
+                "Count": 2,
+                "Description": "라운드 종료시 추가로 @Gold만큼의 골드를 추가로 획득합니다. 골드 획득량은 잃은 체력에 비례하여 @LossHpRation만큼 증가합니다.",
+                "Gold": 1,
+                "LossHpRatio": 0.1
+            },
+            {
+                "Count": 3,
+                "Description": "라운드 종료시 추가로 @Gold만큼의 골드를 추가로 획득합니다. 골드 획득량은 잃은 체력에 비례하여 @LossHpRation만큼 증가합니다.",
+                "Gold": 2,
+                "LossHpRatio": 0.2
+            }
+        ]
+    },
+    {
+        "SynergyName": "Green",
+        "Stats": [
+            {
+                "Count": 2,
+                "Description": "Green 타워가 공격시 상대의 이동속도를 @Speed%만큼 감소시킵니다.",
+                "Speed": 10
+            },
+            {
+                "Count": 3,
+                "Description": "Green 타워가 공격시 상대의 이동속도를 @Speed%만큼 감소시킵니다.",
+                "Speed": 20
+            }
+        ]
+    },
+    {
+        "SynergyName": "A",
+        "Stats": [
+            {
+                "Count": 2,
+                "Description": "A 타워의 크리티컬 확률이 @CriticalRate%만큼 증가합니다.",
+                "CriticalRate": 20,
+                "CriticalDamage": 0
+            },
+            {
+                "Count": 3,
+                "Description": "A 타워의 크리티컬 확률이 @CriticalRate%만큼 증가합니다. 크리티컬 데미지가 @CriticalDamage%만큼 증가합니다.",
+                "CriticalRate": 20,
+                "CriticalDamage": 50
+            }
+        ]
+    },
+    {
+        "SynergyName": "B",
+        "Stats": [
+            {
+                "Count": 2,
+                "Description": "B 타워의 공격속도가 @Speed만큼 증가합니다.",
+                "AttackSpeed": 10
+            },
+            {
+                "Count": 3,
+                "Description": "B 타워의 공격속도가 @Speed만큼 증가합니다.",
+                "AttackSpeed": 20
+            }
+        ]
+    },
+    {
+        "SynergyName": "C",
+        "Stats": [
+            {
+                "Count": 2,
+                "Description": "C 타워의 스킬 데미지가 @SkillDamage%만큼 증가합니다.",
+                "SkillDamage": 20
+            }
+        ]
+    },
+    {
+        "SynergyName": "D",
+        "Stats": [
+            {
+                "Count": 1,
+                "Description": "D 타워가 공격시 상대를 @Distance만큼 넉백시킵니다.",
+                "Distance": 1
+            }
+        ]
+    },
+    {
+        "SynergyName": "E",
+        "Stats": [
+            {
+                "Count": 2,
+                "Description": "E 타워로부터 사거리 @RANGE 이내에 있는 타워의 공격력을 @AttackDamage%만큼 증가합니다.",
+                "RANGE": 2,
+                "AttackDamage": 10
+            }
+        ]
+    }
+]

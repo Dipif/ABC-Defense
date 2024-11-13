@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RefreshProbability : ScriptableObject
+/// <summary>
+/// Probability[level][cost] = probability
+/// </summary>
+public class RefreshProbability
 {
-    public int level;
-    public float cost1Probability;
-    public float cost2Probability;
-    public float cost3Probability;
+    public List<List<float>> Probability = new List<List<float>>();
 }
